@@ -1,0 +1,25 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+/* ROOT VARIABLES */
+:root {
+    --black: #000000;
+    --grey: #4F5665;
+    --grey-min: #DDDDDD;
+    --main: #F53855;
+    --main-min: #ef0026;
+    --main-hover: #ffb9c4;
+    --footer-backgroung: #F8F8F8;
+    --white: #FFFFFF;
+}
+
+/* DEFAULT SETTINGS */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: var(--black);
+    font-family: 'Rubik', sans-serif;
+    transition: .4s all;
+    scroll-behavior: smooth;
+}
